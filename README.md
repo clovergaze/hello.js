@@ -1,7 +1,7 @@
 # Hello.js
 Sets up a server that responds with "Hello world!" when a user navigates to its address or "Hello [name]!" if a parameter is used.
 
-## Setup
+## Installation
 Install all necessary dependencies with:
 
 ~~~bash
