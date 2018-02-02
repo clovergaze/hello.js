@@ -1,6 +1,7 @@
 import * as http from "http";
-import {IncomingMessage, ServerResponse} from "http";
 import * as url from "url";
+
+import {IncomingMessage, ServerResponse} from "http";
 import {ParsedUrlQuery} from "querystring";
 
 const NAME_PARAMETER = "name";
