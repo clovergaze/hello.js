@@ -1,0 +1,30 @@
+{
+  "name": "@clovergaze/hello.js",
+  "version": "1.0.0",
+  "description": "Sets up a server that responds with \"Hello world!\" when a user navigates to it.",
+  "author": "Johannes Hillert <johannes.hillert@infokin.org>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clovergaze/hello.js"
+  },
+  "scripts": {
+    "build": "grunt",
+    "watch": "grunt watch",
+    "clean": "grunt clean",
+    "release": "grunt release",
+    "start": "node dist/hello.min.js"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "grunt": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-ts": "latest",
+    "grunt-tslint": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
